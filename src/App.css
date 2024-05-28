@@ -1,0 +1,70 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 30%; 
+  max-width: 320px; 
+  overflow-y: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.sb-header{
+  height: 5%;
+  display: flex;
+  padding : 10px;
+  border: 2px solid #e5ddd5;
+}
+
+
+.sb-search{
+  height: 5%;
+  display: flex;
+  padding : 10px;
+  border: 2px solid #e5ddd5;
+}
+
+
+.sb-convo-list{
+  height: 90%;
+  display: flex;
+  padding : 10px;
+  border: 2px solid #e5ddd5;
+}
+
+
+.chat-area {
+  padding: 10px;
+  flex: 1;
+  background-color: #e5ddd5;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.chat-header{
+  height: 5%;
+  padding : 10px;
+  border: 2px solid #000;
+}
+
+.chat-body{
+  height: 90%;
+  padding : 10px;
+  border: 2px solid #000;
+}
+
+.chat-footer{
+  height: 5%;
+  border: 2px solid #000;
+}
